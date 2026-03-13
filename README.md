@@ -1,1 +1,1 @@
-# Esercitazione1_prog
+# Repository Programmazione e Calcolo Scientifico
