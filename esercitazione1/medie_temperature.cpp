@@ -26,7 +26,9 @@ int main(int argc, const char *argv[])
 		       const int n_citta = 3;
 		       float media;
 		       for (int j = 0; j < n_citta ; j++) {
-			       
+
+			        media = 0;
+
 		       		if (!( ifs >> location)) {
 			       		cerr << "Errore nella lettura della citta";
 		      		}
