@@ -46,7 +46,7 @@ private:
         }
     }
 
-    int is_inf() {
+    int is_inf() const {
         if (den_ == 0) {
             return num_;
         }
@@ -81,16 +81,20 @@ public:
     rational& operator+=(const rational& other) {
         // eccezioni
         if (is_inf() + other.is_inf() == 2) {
-            return rational<int>(1,0);
+            *this = rational<I>(1,0);
+            return *this;
         }
         if (is_inf() + other.is_inf() == -2) {
-            return rational<int>(-1,0);
+            *this = rational<I>(-1,0);
+            return *this;
         }
         if (is_inf() == 1 && other.is_inf() == -1) {
-            return rational<int>(0,0);
+            *this = rational<I>(0,0);
+            return *this;
         }
         if (is_inf() == -1 && other.is_inf() == 1) {
-            return rational<int>(0,0);
+            *this = rational<I>(0,0);
+            return *this;
         }
 
         num_ = num_ * other.den_ + other.num_ * den_;
@@ -110,16 +114,20 @@ public:
     rational& operator-=(const rational& other) {
         // eccezioni
         if (is_inf() + other.is_inf() == 2) {
-            return rational<int>(0,0);
+            *this = rational<I>(0,0);
+            return *this;
         }
         if (is_inf() + other.is_inf() == -2) {
-            return rational<int>(0,0);
+            *this = rational<I>(0,0);
+            return *this;
         }
         if (is_inf() == 1 && other.is_inf() == -1) {
-            return rational<int>(1,0);
+            *this = rational<I>(1,0);
+            return *this;
         }
         if (is_inf() == -1 && other.is_inf() == 1) {
-            return rational<int>(-1,0);
+            *this = rational<I>(-1,0);
+            return *this;
         }
 
         num_ = num_ * other.den_ - other.num_ * den_;
