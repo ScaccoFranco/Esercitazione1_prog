@@ -1,7 +1,0 @@
-/home/samuele/Scrivania/UNI/corsi semestre 3.2/Programmazione e Calcolo/esercitazione4/build/CMakeFiles/measure_sorts.dir
-/home/samuele/Scrivania/UNI/corsi semestre 3.2/Programmazione e Calcolo/esercitazione4/build/CMakeFiles/test_bubblesort.dir
-/home/samuele/Scrivania/UNI/corsi semestre 3.2/Programmazione e Calcolo/esercitazione4/build/CMakeFiles/test_insertionsort.dir
-/home/samuele/Scrivania/UNI/corsi semestre 3.2/Programmazione e Calcolo/esercitazione4/build/CMakeFiles/test_selectionsort.dir
-/home/samuele/Scrivania/UNI/corsi semestre 3.2/Programmazione e Calcolo/esercitazione4/build/CMakeFiles/test.dir
-/home/samuele/Scrivania/UNI/corsi semestre 3.2/Programmazione e Calcolo/esercitazione4/build/CMakeFiles/edit_cache.dir
-/home/samuele/Scrivania/UNI/corsi semestre 3.2/Programmazione e Calcolo/esercitazione4/build/CMakeFiles/rebuild_cache.dir
