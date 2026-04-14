@@ -1,7 +1,11 @@
 #pragma once
 
 #include <vector>
+<<<<<<< HEAD
 #include <iostream>
+=======
+#include <ostream>
+>>>>>>> origin/main
 
 class sort {
     private:
