@@ -60,7 +60,19 @@ int main() {
         tc.tic();
         s.mergesort(vi, 0, len-1);
         secs = tc.toc();
-        std::cout << " | " << "Quicksort: " << secs << "s\n";
+        std::cout << " | " << "Quicksort: " << secs << "s";
+
+
+        // STD::SORT
+        vi.resize(len);
+        rf.fill(vi, -500, 500);
+        tc.tic();
+        std::sort( vi.begin(), vi.end() );
+        secs = tc.toc();
+        std::cout << " | " << "std::sort " << secs << "s\n";
+
+
+
 
         len = len * 2;
     }
