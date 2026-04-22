@@ -58,9 +58,17 @@ int main() {
         vi.resize(len);
         rf.fill(vi, -500, 500);
         tc.tic();
-        s.mergesort(vi, 0, len-1);
+        s.quicksort(vi, 0, len-1);
         secs = tc.toc();
         std::cout << " | " << "Quicksort: " << secs << "s";
+
+        // OPT_QUICKSORT
+        vi.resize(len);
+        rf.fill(vi, -500, 500);
+        tc.tic();
+        s.opt_quicksort(vi);
+        secs = tc.toc();
+        std::cout << " | " << "Opt-qs: " << secs << "s";
 
 
         // STD::SORT

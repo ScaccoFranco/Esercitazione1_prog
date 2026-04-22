@@ -143,7 +143,16 @@ class sort {
             }
         }
 
+        template <typename T>
+        void opt_quicksort(std::vector<T>& vec) {
+            int len = vec.size();
 
+            if (len < 150) {
+                insertion(vec);
+            } else {
+                quicksort(vec, 0, len-1);
+            }
+        }
 
         template <typename T>
         bool is_sorted(std::vector<T>& vec) {

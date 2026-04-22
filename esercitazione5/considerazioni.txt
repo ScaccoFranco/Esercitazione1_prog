@@ -1,18 +1,19 @@
 Seguono le misurazioni effettuate tramite il programma measure_sorts.cpp:
+❯ ./measure_sorts
 
-2 | Bubblesort: 3.89e-07s | Insertionsort: 2.51e-07s | Selectionsort: 1.95e-07s | Mergesort: 3.455e-06s | Quicksort: 8.24e-07s | std::sort 1.71e-07s
-4 | Bubblesort: 2.29e-07s | Insertionsort: 2.28e-07s | Selectionsort: 3.19e-07s | Mergesort: 1.661e-06s | Quicksort: 9.82e-07s | std::sort 2.93e-07s
-8 | Bubblesort: 5.07e-07s | Insertionsort: 3.47e-07s | Selectionsort: 5.37e-07s | Mergesort: 1.821e-06s | Quicksort: 1.443e-06s | std::sort 3.75e-07s
-16 | Bubblesort: 1.661e-06s | Insertionsort: 6.85e-07s | Selectionsort: 1.642e-06s | Mergesort: 3.219e-06s | Quicksort: 2.867e-06s | std::sort 7.49e-07s
-32 | Bubblesort: 4.172e-06s | Insertionsort: 1.241e-06s | Selectionsort: 3.512e-06s | Mergesort: 6.147e-06s | Quicksort: 5.243e-06s | std::sort 2.178e-06s
-64 | Bubblesort: 1.3449e-05s | Insertionsort: 3.062e-06s | Selectionsort: 8.408e-06s | Mergesort: 1.2058e-05s | Quicksort: 1.1492e-05s | std::sort 4.307e-06s
-128 | Bubblesort: 7.0656e-05s | Insertionsort: 8.634e-06s | Selectionsort: 2.3943e-05s | Mergesort: 2.5475e-05s | Quicksort: 2.4933e-05s | std::sort 9.424e-06s
-256 | Bubblesort: 0.000191304s | Insertionsort: 2.8087e-05s | Selectionsort: 7.1727e-05s | Mergesort: 5.3124e-05s | Quicksort: 5.0768e-05s | std::sort 2.0424e-05s
-512 | Bubblesort: 0.00105402s | Insertionsort: 0.0001086s | Selectionsort: 0.000239439s | Mergesort: 0.00010864s | Quicksort: 0.000105158s | std::sort 4.4166e-05s
-1024 | Bubblesort: 0.00421594s | Insertionsort: 0.000445809s | Selectionsort: 0.000803304s | Mergesort: 0.000298444s | Quicksort: 0.000223775s | std::sort 9.8516e-05s
-2048 | Bubblesort: 0.0150432s | Insertionsort: 0.00159558s | Selectionsort: 0.00292405s | Mergesort: 0.000495625s | Quicksort: 0.000474102s | std::sort 0.000218062s
-4096 | Bubblesort: 0.0434686s | Insertionsort: 0.00318229s | Selectionsort: 0.00502251s | Mergesort: 0.000613507s | Quicksort: 0.000533734s | std::sort 0.000224601s
-8192 | Bubblesort: 0.087753s | Insertionsort: 0.0112357s | Selectionsort: 0.019193s | Mergesort: 0.000899801s | Quicksort: 0.000832902s | std::sort 0.000429503s
+2 | Bubblesort: 2.82e-06s | Insertionsort: 8.37e-07s | Selectionsort: 8.69e-07s | Mergesort: 2.548e-05s | Quicksort: 9.8e-07s | Opt-qs: 9.54e-07s | std::sort 2.292e-06s
+4 | Bubblesort: 2.569e-06s | Insertionsort: 1.729e-06s | Selectionsort: 1.95e-06s | Mergesort: 1.4759e-05s | Quicksort: 2.146e-06s | Opt-qs: 2.187e-06s | std::sort 1.417e-06s
+8 | Bubblesort: 4.583e-06s | Insertionsort: 2.917e-06s | Selectionsort: 4.756e-06s | Mergesort: 2.8172e-05s | Quicksort: 4.72e-06s | Opt-qs: 2.578e-06s | std::sort 1.963e-06s
+16 | Bubblesort: 1.2782e-05s | Insertionsort: 4.532e-06s | Selectionsort: 9.045e-06s | Mergesort: 0.00010746s | Quicksort: 1.0749e-05s | Opt-qs: 4.368e-06s | std::sort 3.379e-06s
+32 | Bubblesort: 3.3335e-05s | Insertionsort: 9.411e-06s | Selectionsort: 2.8724e-05s | Mergesort: 7.3858e-05s | Quicksort: 1.8516e-05s | Opt-qs: 1.0055e-05s | std::sort 1.3343e-05s
+64 | Bubblesort: 0.000119583s | Insertionsort: 2.8289e-05s | Selectionsort: 7.5848e-05s | Mergesort: 0.000242391s | Quicksort: 4.0957e-05s | Opt-qs: 2.7041e-05s | std::sort 2.9253e-05s
+128 | Bubblesort: 0.000398973s | Insertionsort: 8.4825e-05s | Selectionsort: 0.000238659s | Mergesort: 0.00018597s | Quicksort: 7.2719e-05s | Opt-qs: 6.0192e-05s | std::sort 6.3812e-05s
+256 | Bubblesort: 0.00169225s | Insertionsort: 0.000194327s | Selectionsort: 0.000515869s | Mergesort: 0.000493677s | Quicksort: 0.000249102s | Opt-qs: 0.000197726s | std::sort 0.000151577s
+512 | Bubblesort: 0.0073916s | Insertionsort: 0.000991917s | Selectionsort: 0.00221694s | Mergesort: 0.000768114s | Quicksort: 0.000367155s | Opt-qs: 0.000380623s | std::sort 0.000299254s
+1024 | Bubblesort: 0.0301773s | Insertionsort: 0.00324652s | Selectionsort: 0.00681584s | Mergesort: 0.00177871s | Quicksort: 0.000835122s | Opt-qs: 0.000774031s | std::sort 0.000718518s
+2048 | Bubblesort: 0.10304s | Insertionsort: 0.0104504s | Selectionsort: 0.0208723s | Mergesort: 0.00352031s | Quicksort: 0.00171406s | Opt-qs: 0.00170577s | std::sort 0.00149887s
+4096 | Bubblesort: 0.302342s | Insertionsort: 0.0400286s | Selectionsort: 0.0794016s | Mergesort: 0.00693409s | Quicksort: 0.0035163s | Opt-qs: 0.00356971s | std::sort 0.00313069s
+8192 | Bubblesort: 0.872569s | Insertionsort: 0.163869s | Selectionsort: 0.310907s | Mergesort: 0.0143163s | Quicksort: 0.00722971s | Opt-qs: 0.00701756s | std::sort 0.00617795s
 
 Come si può notare, per quanto riguarda le potenze di 2, notiamo come per vettori di dimensione "piccola" sono ancora più performanti
 gli algoritmi di ordinamento implementati nella scorsa esercitazione, aventi complessità computazionale quadratica.
@@ -21,44 +22,41 @@ A partire da queste evidenze possiamo calcolare la dimensione per la quale le du
 Seguono i valori delle misurazioni del tempo di ordinamento per le varie lunghezze:
 
 
-10 |  | Selectionsort: 2.2848e-06s | Insertionsort: 1.3358e-06s | Mergesort: 5.3841e-06s | Quicksort: 2.1083e-06s
-20 |  | Selectionsort: 3.1143e-06s | Insertionsort: 1.34615e-06s | Mergesort: 5.8684e-06s | Quicksort: 2.4764e-06s
-30 |  | Selectionsort: 7.0342e-06s | Insertionsort: 3.0417e-06s | Mergesort: 1.3635e-05s | Quicksort: 5.61703e-06s
-40 |  | Selectionsort: 1.13206e-05s | Insertionsort: 4.53772e-06s | Mergesort: 2.11979e-05s | Quicksort: 8.03983e-06s
-50 |  | Selectionsort: 1.29439e-05s | Insertionsort: 4.51062e-06s | Mergesort: 1.81377e-05s | Quicksort: 7.53732e-06s
-60 |  | Selectionsort: 7.56985e-06s | Insertionsort: 3.37065e-06s | Mergesort: 1.10759e-05s | Quicksort: 4.44883e-06s
-70 |  | Selectionsort: 5.29487e-06s | Insertionsort: 1.95494e-06s | Mergesort: 7.29809e-06s | Quicksort: 2.93984e-06s
-80 |  | Selectionsort: 7.55866e-06s | Insertionsort: 2.88875e-06s | Mergesort: 9.28779e-06s | Quicksort: 4.1322e-06s
-90 |  | Selectionsort: 6.454e-06s | Insertionsort: 2.30732e-06s | Mergesort: 7.85013e-06s | Quicksort: 3.48303e-06s
-100 |  | Selectionsort: 6.60854e-06s | Insertionsort: 2.69065e-06s | Mergesort: 7.69632e-06s | Quicksort: 3.19553e-06s
-110 |  | Selectionsort: 7.56803e-06s | Insertionsort: 2.53264e-06s | Mergesort: 6.98477e-06s | Quicksort: 3.54125e-06s
-120 |  | Selectionsort: 6.86533e-06s | Insertionsort: 2.9938e-06s | Mergesort: 7.52288e-06s | Quicksort: 3.3949e-06s
-130 |  | Selectionsort: 6.82278e-06s | Insertionsort: 2.6696e-06s | Mergesort: 7.26901e-06s | Quicksort: 4.30454e-06s
-140 |  | Selectionsort: 8.03381e-06s | Insertionsort: 3.19516e-06s | Mergesort: 6.91109e-06s | Quicksort: 3.13578e-06s
-150 |  | Selectionsort: 8.15511e-06s | Insertionsort: 3.62475e-06s | Mergesort: 8.0857e-06s | Quicksort: 3.54535e-06s
-160 |  | Selectionsort: 8.50034e-06s | Insertionsort: 3.62072e-06s | Mergesort: 8.38124e-06s | Quicksort: 3.81823e-06s
-170 |  | Selectionsort: 9.36722e-06s | Insertionsort: 3.49942e-06s | Mergesort: 1.14525e-05s | Quicksort: 4.055e-06s
-180 |  | Selectionsort: 9.03524e-06s | Insertionsort: 3.57885e-06s | Mergesort: 8.80499e-06s | Quicksort: 3.81059e-06s
-190 |  | Selectionsort: 9.24851e-06s | Insertionsort: 3.60761e-06s | Mergesort: 7.86661e-06s | Quicksort: 3.43993e-06s
-200 |  | Selectionsort: 9.51783e-06s | Insertionsort: 3.61422e-06s | Mergesort: 7.16768e-06s | Quicksort: 3.47012e-06s
-210 |  | Selectionsort: 9.98452e-06s | Insertionsort: 3.82667e-06s | Mergesort: 8.15227e-06s | Quicksort: 3.47412e-06s
-220 |  | Selectionsort: 1.05054e-05s | Insertionsort: 4.01095e-06s | Mergesort: 7.69324e-06s | Quicksort: 3.69e-06s
-230 |  | Selectionsort: 1.06352e-05s | Insertionsort: 4.45968e-06s | Mergesort: 9.67073e-06s | Quicksort: 4.09827e-06s
-240 |  | Selectionsort: 1.15761e-05s | Insertionsort: 4.75365e-06s | Mergesort: 1.1632e-05s | Quicksort: 4.29311e-06s
-250 |  | Selectionsort: 1.12346e-05s | Insertionsort: 4.74568e-06s | Mergesort: 9.01695e-06s | Quicksort: 4.42118e-06s
-260 |  | Selectionsort: 1.1681e-05s | Insertionsort: 4.98942e-06s | Mergesort: 9.12808e-06s | Quicksort: 4.1023e-06s
-270 |  | Selectionsort: 1.18459e-05s | Insertionsort: 4.92534e-06s | Mergesort: 7.96044e-06s | Quicksort: 3.71599e-06s
-280 |  | Selectionsort: 1.22586e-05s | Insertionsort: 4.87514e-06s | Mergesort: 7.90919e-06s | Quicksort: 3.69378e-06s
-290 |  | Selectionsort: 1.20847e-05s | Insertionsort: 5.51706e-06s | Mergesort: 9.13277e-06s | Quicksort: 3.92054e-06s
+10 |  | Selectionsort: 4.41178e-05s | Insertionsort: 2.95533e-05s | Mergesort: 0.000106146s | Quicksort: 3.79448e-05s | std::sort 2.28077e-05s | opt-qs: 2.24728e-05s
+20 |  | Selectionsort: 5.51953e-05s | Insertionsort: 2.43576e-05s | Mergesort: 0.000121147s | Quicksort: 4.47276e-05s | std::sort 4.23214e-05s | opt-qs: 2.445e-05s
+30 |  | Selectionsort: 6.45504e-05s | Insertionsort: 2.5014e-05s | Mergesort: 0.000117505s | Quicksort: 4.85029e-05s | std::sort 3.53814e-05s | opt-qs: 2.67852e-05s
+40 |  | Selectionsort: 7.14739e-05s | Insertionsort: 2.83997e-05s | Mergesort: 0.000117253s | Quicksort: 4.71755e-05s | std::sort 3.84861e-05s | opt-qs: 3.01452e-05s
+50 |  | Selectionsort: 7.85136e-05s | Insertionsort: 3.06837e-05s | Mergesort: 0.000134405s | Quicksort: 5.3495e-05s | std::sort 4.15886e-05s | opt-qs: 3.11386e-05s
+60 |  | Selectionsort: 0.000105028s | Insertionsort: 4.02866e-05s | Mergesort: 0.000169377s | Quicksort: 6.27259e-05s | std::sort 4.72152e-05s | opt-qs: 4.40825e-05s
+70 |  | Selectionsort: 0.000109388s | Insertionsort: 4.3816e-05s | Mergesort: 0.000160182s | Quicksort: 6.50946e-05s | std::sort 4.9341e-05s | opt-qs: 4.45036e-05s
+80 |  | Selectionsort: 9.69993e-05s | Insertionsort: 3.69331e-05s | Mergesort: 0.000128518s | Quicksort: 5.37457e-05s | std::sort 4.30059e-05s | opt-qs: 3.83559e-05s
+90 |  | Selectionsort: 0.000105344s | Insertionsort: 3.8838e-05s | Mergesort: 0.000129097s | Quicksort: 5.78701e-05s | std::sort 4.53045e-05s | opt-qs: 4.00563e-05s
+100 |  | Selectionsort: 0.000106115s | Insertionsort: 4.22065e-05s | Mergesort: 0.0001291s | Quicksort: 5.53428e-05s | std::sort 4.51986e-05s | opt-qs: 4.08928e-05s
+110 |  | Selectionsort: 0.000115802s | Insertionsort: 4.56958e-05s | Mergesort: 0.000132848s | Quicksort: 5.80105e-05s | std::sort 4.67308e-05s | opt-qs: 4.46724e-05s
+120 |  | Selectionsort: 0.000121477s | Insertionsort: 4.60704e-05s | Mergesort: 0.000131902s | Quicksort: 5.76611e-05s | std::sort 4.78929e-05s | opt-qs: 4.8238e-05s
+130 |  | Selectionsort: 0.000125919s | Insertionsort: 4.89724e-05s | Mergesort: 0.000132626s | Quicksort: 5.99332e-05s | std::sort 4.71315e-05s | opt-qs: 5.09089e-05s
+140 |  | Selectionsort: 0.000136181s | Insertionsort: 5.18141e-05s | Mergesort: 0.000138874s | Quicksort: 6.05132e-05s | std::sort 4.92774e-05s | opt-qs: 5.34978e-05s
+150 |  | Selectionsort: 0.000136173s | Insertionsort: 5.26257e-05s | Mergesort: 0.000133406s | Quicksort: 6.00552e-05s | std::sort 4.84713e-05s | opt-qs: 6.00519e-05s
+160 |  | Selectionsort: 0.000150102s | Insertionsort: 6.24435e-05s | Mergesort: 0.000147085s | Quicksort: 6.3506e-05s | std::sort 4.98383e-05s | opt-qs: 6.27277e-05s
+170 |  | Selectionsort: 0.000155398s | Insertionsort: 6.23003e-05s | Mergesort: 0.000144433s | Quicksort: 6.29223e-05s | std::sort 5.10096e-05s | opt-qs: 6.33811e-05s
+180 |  | Selectionsort: 0.000164558s | Insertionsort: 6.56856e-05s | Mergesort: 0.000152628s | Quicksort: 6.52128e-05s | std::sort 5.24559e-05s | opt-qs: 6.41961e-05s
+190 |  | Selectionsort: 0.00016482s | Insertionsort: 6.64403e-05s | Mergesort: 0.000150138s | Quicksort: 6.54079e-05s | std::sort 5.14812e-05s | opt-qs: 6.4037e-05s
+200 |  | Selectionsort: 0.000165124s | Insertionsort: 6.67972e-05s | Mergesort: 0.000144898s | Quicksort: 6.28482e-05s | std::sort 5.20707e-05s | opt-qs: 6.46697e-05s
+210 |  | Selectionsort: 0.000171752s | Insertionsort: 7.02401e-05s | Mergesort: 0.000144894s | Quicksort: 6.36088e-05s | std::sort 5.29937e-05s | opt-qs: 6.45691e-05s
+220 |  | Selectionsort: 0.00017431s | Insertionsort: 7.25651e-05s | Mergesort: 0.000141269s | Quicksort: 6.24871e-05s | std::sort 5.29293e-05s | opt-qs: 6.33779e-05s
+
 
 
 Per ogni lunghezza sono state effettuate 100 misurazioni, e quella che si riporta è la media, per minimizzare l'impatto della randomicità dell'ordinamento iniziale dei vettori.
+Nelle misurazioni del file measure_sorts.cpp alcuni algoritmi posso risultare più veloci di altri, con una "classifica" che può non coincidere con questi ultimi dati, però essendo questi una media di 100 misurazioni,
+risultano molto più affidabili, e perciò anche rilevanti.
 
 Si nota immediatamente come l'insertion sort sia l'algoritmo più performante a dimensioni ridotte dei vettori, tra quelli analizzati.
 il più lento è invece il mergesort, che essendo un algoritmo stabile nell'ordine di nlogn, questo diventa più utile per dimensioni grandi. Tuttavia il quicksort risulta in media più veloce, 
 nonostante possa degradare, nel peggior caso, nell'ordine quadratico. è preferito se non è necessaria la stabilità.  
 
-Per vettori di dimensione superiore a 190 il quicksort diventa il più efficiente, superando le prestazioni dell'insertionsort.
+Per vettori di dimensione tra il 140 e il 180 il quicksort e l'insertionsort competono, ma il quicksort diventa il più efficiente per le dimensioni superiori
+superando le prestazioni dell'insertionsort. Per la mia funzione opt_quicksort impost come limite inferiore per il quicksort la dimensione di 150. Sotto questo valore viene utilizzato l'insertion sort
 
 La scelta tra mergesort e quicksort dipende generalmente dalla necessità o meno di stabilità, infatti, con un pivot scelto male, il quicksort decade a complessità quadratica,
 mentre mergesort rimane sempre stabile a nlogn, ma in media è più veloce.
