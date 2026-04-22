@@ -9,6 +9,10 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wshadow -Werror=vla -Wno-sign-com
 set(SRC_test_sorts timecounter.cpp measure_sorts.cpp)
 add_executable(measure_sorts ${SRC_test_sorts})
 
+## confronto dimensioni da 1 a 100 per trovare punto di incontro per diversi tipi di ordinamento
+set(SRC_test_sorts timecounter.cpp confronto_merge_selection.cpp)
+add_executable(confronto ${SRC_test_sorts})
+
 
 ## test dei sorting
 add_executable(test_bubblesort test_bubblesort.cpp)

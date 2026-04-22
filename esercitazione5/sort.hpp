@@ -67,7 +67,7 @@ class sort {
 
         template <typename T>
         void merge(std::vector<T>& vec, int p, int q, int r) {
-            int n1 = q-p;
+            int n1 = q-p+1;
             int n2 = r-q;
 
             std::vector<T> vecL, vecR;
@@ -78,7 +78,7 @@ class sort {
                 vecL[i] = vec[p+i];
             }
             for (int j = 0; j < n2; j++) {
-                vecR[j] = vec[q+j];
+                vecR[j] = vec[q+j+1];
             }
 
             if constexpr (std::is_same_v<T, std::string>) { // controllo se T è stringa
