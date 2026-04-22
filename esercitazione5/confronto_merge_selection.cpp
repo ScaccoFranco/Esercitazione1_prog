@@ -8,47 +8,58 @@ int main() {
     randfiller rf;
     sort s;
     timecounter tc;
+    std::vector<int> vi;
 
     std::cout << '\n';
 
-    int len = 100;
-    while (len <= 250) {
+    
+    for (int i = 0; i < 30; i++) {
+        double secs_selectionsort = 0.0;
+        double secs_insertionsort = 0.0;
+        double secs_mergesort = 0.0;
+        double secs_quicksort = 0.0;
+        int len = 10 * i;
+
+
+        for (int j = 0; j < 100; j++) { // per ogni dimensione 100 iterazioni per minimizzare errore
+
+            // SELECTIONSORT    
+            vi.resize(len);
+            rf.fill(vi, -500, 500);
+            tc.tic();
+            s.selection(vi);
+            secs_selectionsort += tc.toc();
+
+            // SELECTIONSORT    
+            vi.resize(len);
+            rf.fill(vi, -500, 500);
+            tc.tic();
+            s.insertion(vi);
+            secs_insertionsort += tc.toc();
+
+
+            // QUICKSORT   
+            vi.resize(len);
+            rf.fill(vi, -500, 500);
+            tc.tic();
+            s.quicksort(vi, 0, len-1);
+            secs_quicksort += tc.toc();
+
+            // MergeSORT   
+            vi.resize(len);
+            rf.fill(vi, -500, 500);
+            tc.tic();
+            s.mergesort(vi, 0, len-1);
+            secs_mergesort += tc.toc();
+        }
 
         std::cout << len << " | ";
-        std::vector<int> vi;
-        double secs;
+        
+        std::cout << " | " << "Selectionsort: " << secs_selectionsort / (double) len << "s";
+        std::cout << " | " << "Insertionsort: " << secs_insertionsort / (double) len << "s";
 
-
-        // SELECTIONSORT    
-        vi.resize(len);
-        rf.fill(vi, -500, 500);
-        tc.tic();
-        s.selection(vi);
-        secs = tc.toc();
-        std::cout << " | " << "Selectionsort: " << secs << "s";
-
-
-        // MERGESORT
-        vi.resize(len);
-        rf.fill(vi, -500, 500);
-        tc.tic();
-        s.mergesort(vi, 0, len-1);
-        secs = tc.toc();
-        std::cout << " | " << "Mergesort: " << secs << "s";
-
-
-        // STD::SORT
-        vi.resize(len);
-        rf.fill(vi, -500, 500);
-        tc.tic();
-        std::sort( vi.begin(), vi.end() );
-        secs = tc.toc();
-        std::cout << " | " << "std::sort " << secs << "s\n";
-
-
-
-
-        len = len + 1;
+        std::cout << " | " << "Mergesort: " << secs_mergesort / (double) len << "s";
+        std::cout << " | " << "Quicksort: " << secs_quicksort / (double) len << "s\n";
     }
 
 }
