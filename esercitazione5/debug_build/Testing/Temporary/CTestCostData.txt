@@ -1,0 +1,6 @@
+bubblesort 2 0.00626588
+insertionsort 2 0.00480808
+selectionsort 2 0.00517202
+mergesort 2 0.00526076
+quicksort 2 0.00356258
+---
