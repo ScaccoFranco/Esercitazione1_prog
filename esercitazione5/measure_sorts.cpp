@@ -42,7 +42,7 @@ int main() {
         tc.tic();
         s.selection(vi);
         secs = tc.toc();
-        std::cout << " | " << "Bubblesort: " << secs << "s";
+        std::cout << " | " << "Selectionsort: " << secs << "s";
 
 
         // MERGESORT
