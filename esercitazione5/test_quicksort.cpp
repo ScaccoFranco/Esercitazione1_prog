@@ -22,7 +22,7 @@ int main() {
     }
 
     std::vector<std::string> vs = {"ciao", "Ciao", "Ciao a tutti", "Ciaooooooo", "cIAO", "CIAO A TUTTIIIIII"};
-    s.insertion(vs);
+    s.quicksort(vs, 0, vs.size()-1);
     s.print(vs);
     if (!s.is_sorted(vs)) {
         return EXIT_FAILURE;

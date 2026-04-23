@@ -15,14 +15,14 @@ int main() {
         vi.resize(len);
         rf.fill(vi, -500, 500); 
 
-        s.mergesort(vi, 0, len-1);
+        s.opt_quicksort(vi);
         if (!s.is_sorted(vi)) {
             return EXIT_FAILURE;
         }
     }
 
     std::vector<std::string> vs = {"ciao", "Ciao", "Ciao a tutti", "Ciaooooooo", "cIAO", "CIAO A TUTTIIIIII"};
-    s.mergesort(vs, 0, vs.size()-1);
+    s.opt_quicksort(vs);
     s.print(vs);
     if (!s.is_sorted(vs)) {
         return EXIT_FAILURE;

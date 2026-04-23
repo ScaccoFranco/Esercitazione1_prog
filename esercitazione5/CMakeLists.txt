@@ -30,4 +30,8 @@ add_test(NAME mergesort COMMAND test_mergesort)
 add_executable(test_quicksort test_quicksort.cpp)
 add_test(NAME quicksort COMMAND test_quicksort)
 
+
+add_executable(test_opt_quicksort test_opt_quicksort.cpp)
+add_test(NAME opt-quicksort COMMAND test_opt_quicksort)
+
 enable_testing()
