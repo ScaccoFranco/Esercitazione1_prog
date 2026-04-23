@@ -1,0 +1,129 @@
+Start testing: Apr 23 13:09 CEST
+----------------------------------------------------------
+1/6 Testing: bubblesort
+1/6 Test: bubblesort
+Command: "/home/samuele/Scrivania/UNI/corsi semestre 3.2/Programmazione e Calcolo/esercitazione5/debug_build/test_bubblesort"
+Directory: /home/samuele/Scrivania/UNI/corsi semestre 3.2/Programmazione e Calcolo/esercitazione5/debug_build
+"bubblesort" start time: Apr 23 13:09 CEST
+Output:
+----------------------------------------------------------
+CIAO A TUTTIIIIII
+Ciao
+Ciao a tutti
+Ciaooooooo
+cIAO
+ciao
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"bubblesort" end time: Apr 23 13:09 CEST
+"bubblesort" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/6 Testing: insertionsort
+2/6 Test: insertionsort
+Command: "/home/samuele/Scrivania/UNI/corsi semestre 3.2/Programmazione e Calcolo/esercitazione5/debug_build/test_insertionsort"
+Directory: /home/samuele/Scrivania/UNI/corsi semestre 3.2/Programmazione e Calcolo/esercitazione5/debug_build
+"insertionsort" start time: Apr 23 13:09 CEST
+Output:
+----------------------------------------------------------
+CIAO A TUTTIIIIII
+Ciao
+Ciao a tutti
+Ciaooooooo
+cIAO
+ciao
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"insertionsort" end time: Apr 23 13:09 CEST
+"insertionsort" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/6 Testing: selectionsort
+3/6 Test: selectionsort
+Command: "/home/samuele/Scrivania/UNI/corsi semestre 3.2/Programmazione e Calcolo/esercitazione5/debug_build/test_selectionsort"
+Directory: /home/samuele/Scrivania/UNI/corsi semestre 3.2/Programmazione e Calcolo/esercitazione5/debug_build
+"selectionsort" start time: Apr 23 13:09 CEST
+Output:
+----------------------------------------------------------
+CIAO A TUTTIIIIII
+Ciao
+Ciao a tutti
+Ciaooooooo
+cIAO
+ciao
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"selectionsort" end time: Apr 23 13:09 CEST
+"selectionsort" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/6 Testing: mergesort
+4/6 Test: mergesort
+Command: "/home/samuele/Scrivania/UNI/corsi semestre 3.2/Programmazione e Calcolo/esercitazione5/debug_build/test_mergesort"
+Directory: /home/samuele/Scrivania/UNI/corsi semestre 3.2/Programmazione e Calcolo/esercitazione5/debug_build
+"mergesort" start time: Apr 23 13:09 CEST
+Output:
+----------------------------------------------------------
+CIAO A TUTTIIIIII
+Ciao
+Ciao a tutti
+Ciaooooooo
+cIAO
+ciao
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"mergesort" end time: Apr 23 13:09 CEST
+"mergesort" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/6 Testing: quicksort
+5/6 Test: quicksort
+Command: "/home/samuele/Scrivania/UNI/corsi semestre 3.2/Programmazione e Calcolo/esercitazione5/debug_build/test_quicksort"
+Directory: /home/samuele/Scrivania/UNI/corsi semestre 3.2/Programmazione e Calcolo/esercitazione5/debug_build
+"quicksort" start time: Apr 23 13:09 CEST
+Output:
+----------------------------------------------------------
+CIAO A TUTTIIIIII
+Ciao
+Ciao a tutti
+Ciaooooooo
+cIAO
+ciao
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"quicksort" end time: Apr 23 13:09 CEST
+"quicksort" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/6 Testing: opt-quicksort
+6/6 Test: opt-quicksort
+Command: "/home/samuele/Scrivania/UNI/corsi semestre 3.2/Programmazione e Calcolo/esercitazione5/debug_build/test_opt_quicksort"
+Directory: /home/samuele/Scrivania/UNI/corsi semestre 3.2/Programmazione e Calcolo/esercitazione5/debug_build
+"opt-quicksort" start time: Apr 23 13:09 CEST
+Output:
+----------------------------------------------------------
+CIAO A TUTTIIIIII
+Ciao
+Ciao a tutti
+Ciaooooooo
+cIAO
+ciao
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"opt-quicksort" end time: Apr 23 13:09 CEST
+"opt-quicksort" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 23 13:09 CEST

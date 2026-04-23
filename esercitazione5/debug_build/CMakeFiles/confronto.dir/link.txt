@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wshadow -Werror=vla -Wno-sign-compare -g CMakeFiles/confronto.dir/timecounter.cpp.o CMakeFiles/confronto.dir/confronto.cpp.o -o confronto 
