@@ -60,11 +60,8 @@ public:
     }
 
     bool operator<(const unidirected_edge& other) const {
-        if (from_ < other.from()) {
-            return true;
-        } else {
-            return false;
-        }
+        if (from_ != other.from_) return from_ < other.from_;
+        return to_ < other.to_;
     }
 
     bool operator==(const unidirected_edge& other) const {
