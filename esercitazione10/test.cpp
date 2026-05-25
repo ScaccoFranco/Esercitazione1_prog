@@ -3,10 +3,10 @@
 
 int main()
 {
-    unsigned int N_TEST = 100;
+    unsigned int N_TEST = 10000;
     unsigned int N_MAX = 20;
     const double tol = 1.0e-15;
-    const unsigned int it_max = 10000;
+    const unsigned int it_max = 1000;
 
     for (unsigned int i = 0; i < N_TEST; i++)
     {
@@ -18,8 +18,8 @@ int main()
             continue;
         
         // genero matrice A definita positiva e simmetrica (sennò non garantisce convergenza)
-        // Bt * B rende matrice simmetrica def pos
-        Eigen::MatrixXd A = B.transpose() * B;
+        // Bt * B rende matrice simmetrica, + identity la rende def pos.
+        Eigen::MatrixXd A = B.transpose() * B + Eigen::MatrixXd::Identity(n, n);
         Eigen::VectorXd x_ex = Eigen::VectorXd::Random(n);
         Eigen::VectorXd b = A * x_ex;
         Eigen::VectorXd x0 = Eigen::VectorXd::Zero(n);
